@@ -1,0 +1,559 @@
+{
+  "format": "trame-project",
+  "version": 1,
+  "id": "prj_erguayp3kf2",
+  "name": "Découverte Wi-Fi et DECT",
+  "devices": [
+    {
+      "id": "dev_dyn4tkb3kf2",
+      "modelId": "at-x230",
+      "name": "AT-SW1",
+      "x": 410,
+      "y": 250,
+      "ports": [
+        {
+          "name": "port1.0.1",
+          "short": "port1.0.1",
+          "mac": "0000cd8b66fb",
+          "speed": "1 Gb/s",
+          "adminUp": true,
+          "mode": "access",
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": []
+        },
+        {
+          "name": "port1.0.2",
+          "short": "port1.0.2",
+          "mac": "0000cdb4efe0",
+          "speed": "1 Gb/s",
+          "adminUp": true,
+          "mode": "access",
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": []
+        },
+        {
+          "name": "port1.0.3",
+          "short": "port1.0.3",
+          "mac": "0000cd9fe77b",
+          "speed": "1 Gb/s",
+          "adminUp": true,
+          "mode": "access",
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": []
+        },
+        {
+          "name": "port1.0.4",
+          "short": "port1.0.4",
+          "mac": "0000cd2f1d5a",
+          "speed": "1 Gb/s",
+          "adminUp": true,
+          "mode": "access",
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": []
+        },
+        {
+          "name": "port1.0.5",
+          "short": "port1.0.5",
+          "mac": "0000cd916a36",
+          "speed": "1 Gb/s",
+          "adminUp": true,
+          "mode": "access",
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": []
+        },
+        {
+          "name": "port1.0.6",
+          "short": "port1.0.6",
+          "mac": "0000cd75c851",
+          "speed": "1 Gb/s",
+          "adminUp": true,
+          "mode": "access",
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": []
+        },
+        {
+          "name": "port1.0.7",
+          "short": "port1.0.7",
+          "mac": "0000cdabd24f",
+          "speed": "1 Gb/s",
+          "adminUp": true,
+          "mode": "access",
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": []
+        },
+        {
+          "name": "port1.0.8",
+          "short": "port1.0.8",
+          "mac": "0000cd63f198",
+          "speed": "1 Gb/s",
+          "adminUp": true,
+          "mode": "access",
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": []
+        },
+        {
+          "name": "port1.0.9",
+          "short": "port1.0.9",
+          "mac": "0000cd923e70",
+          "speed": "1 Gb/s",
+          "adminUp": true,
+          "mode": "access",
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": []
+        },
+        {
+          "name": "port1.0.10",
+          "short": "port1.0.10",
+          "mac": "0000cdebac8a",
+          "speed": "1 Gb/s",
+          "adminUp": true,
+          "mode": "access",
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": []
+        }
+      ],
+      "config": {
+        "hostname": "awplus",
+        "vlans": [
+          {
+            "id": 1,
+            "name": "default"
+          }
+        ],
+        "svis": [
+          {
+            "vlan": 1,
+            "adminUp": true
+          }
+        ],
+        "routes": []
+      },
+      "startup": null
+    },
+    {
+      "id": "dev_g6fitwi3kf2",
+      "modelId": "ap",
+      "name": "WiFi1",
+      "x": 190,
+      "y": 200,
+      "ports": [
+        {
+          "name": "Ethernet0",
+          "short": "Eth0",
+          "mac": "00e0f7ed1446",
+          "speed": "1 Gb/s",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        },
+        {
+          "name": "Radio1",
+          "short": "Radio1",
+          "mac": "00e0f75cf4b4",
+          "speed": "Wi-Fi",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        },
+        {
+          "name": "Radio2",
+          "short": "Radio2",
+          "mac": "00e0f7a172a9",
+          "speed": "Wi-Fi",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        },
+        {
+          "name": "Radio3",
+          "short": "Radio3",
+          "mac": "00e0f7978d1d",
+          "speed": "Wi-Fi",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        },
+        {
+          "name": "Radio4",
+          "short": "Radio4",
+          "mac": "00e0f709085b",
+          "speed": "Wi-Fi",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        },
+        {
+          "name": "Radio5",
+          "short": "Radio5",
+          "mac": "00e0f755bfe6",
+          "speed": "Wi-Fi",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        },
+        {
+          "name": "Radio6",
+          "short": "Radio6",
+          "mac": "00e0f7d701e1",
+          "speed": "Wi-Fi",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        },
+        {
+          "name": "Radio7",
+          "short": "Radio7",
+          "mac": "00e0f7c00c4f",
+          "speed": "Wi-Fi",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        },
+        {
+          "name": "Radio8",
+          "short": "Radio8",
+          "mac": "00e0f7a96abb",
+          "speed": "Wi-Fi",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        }
+      ],
+      "config": {
+        "hostname": "AP",
+        "vlans": [
+          {
+            "id": 1,
+            "name": "default"
+          }
+        ],
+        "svis": []
+      },
+      "startup": null
+    },
+    {
+      "id": "dev_73x4j253kf2",
+      "modelId": "laptop",
+      "name": "Portable1",
+      "x": 30,
+      "y": 140,
+      "ports": [
+        {
+          "name": "WiFi0",
+          "short": "WiFi0",
+          "mac": "00e0f7cd9c4e",
+          "speed": "Wi-Fi",
+          "adminUp": true
+        }
+      ],
+      "config": {
+        "hostname": "Portable1",
+        "host": {
+          "mode": "static",
+          "ip": "192.168.1.10",
+          "mask": "255.255.255.0",
+          "gateway": "",
+          "dns": ""
+        }
+      },
+      "startup": null
+    },
+    {
+      "id": "dev_1fwasce3kf2",
+      "modelId": "server",
+      "name": "Serveur1",
+      "x": 410,
+      "y": 70,
+      "ports": [
+        {
+          "name": "FastEthernet0",
+          "short": "Fa0",
+          "mac": "00e0f7e275c6",
+          "speed": "100 Mb/s",
+          "adminUp": true
+        }
+      ],
+      "config": {
+        "hostname": "Serveur1",
+        "host": {
+          "mode": "static",
+          "ip": "192.168.1.2",
+          "mask": "255.255.255.0",
+          "gateway": "",
+          "dns": ""
+        },
+        "dhcpService": {
+          "enabled": true,
+          "poolStart": "192.168.1.100",
+          "mask": "255.255.255.0",
+          "maxUsers": 20,
+          "gateway": "",
+          "dns": ""
+        }
+      },
+      "startup": null
+    },
+    {
+      "id": "dev_ijta6tc3kf2",
+      "modelId": "dect-base",
+      "name": "Base1",
+      "x": 610,
+      "y": 250,
+      "ports": [
+        {
+          "name": "Ethernet0",
+          "short": "Eth0",
+          "mac": "00e0f7ffc967",
+          "speed": "1 Gb/s",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        },
+        {
+          "name": "DECT1",
+          "short": "DECT1",
+          "mac": "00e0f7d2aa1a",
+          "speed": "Radio DECT",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        },
+        {
+          "name": "DECT2",
+          "short": "DECT2",
+          "mac": "00e0f706f223",
+          "speed": "Radio DECT",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        },
+        {
+          "name": "DECT3",
+          "short": "DECT3",
+          "mac": "00e0f7374730",
+          "speed": "Radio DECT",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        },
+        {
+          "name": "DECT4",
+          "short": "DECT4",
+          "mac": "00e0f7a1f61a",
+          "speed": "Radio DECT",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        },
+        {
+          "name": "DECT5",
+          "short": "DECT5",
+          "mac": "00e0f788dfa8",
+          "speed": "Radio DECT",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        },
+        {
+          "name": "DECT6",
+          "short": "DECT6",
+          "mac": "00e0f7c0cdee",
+          "speed": "Radio DECT",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        },
+        {
+          "name": "DECT7",
+          "short": "DECT7",
+          "mac": "00e0f704dc99",
+          "speed": "Radio DECT",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        },
+        {
+          "name": "DECT8",
+          "short": "DECT8",
+          "mac": "00e0f77af299",
+          "speed": "Radio DECT",
+          "adminUp": true,
+          "accessVlan": 1,
+          "nativeVlan": 1,
+          "trunkAllowed": "all"
+        }
+      ],
+      "config": {
+        "hostname": "Base",
+        "vlans": [
+          {
+            "id": 1,
+            "name": "default"
+          }
+        ],
+        "svis": []
+      },
+      "startup": null
+    },
+    {
+      "id": "dev_7y4fvst3kf2",
+      "modelId": "dect-phone",
+      "name": "Téléphone1",
+      "x": 760,
+      "y": 150,
+      "ports": [
+        {
+          "name": "DECT0",
+          "short": "DECT0",
+          "mac": "00e0f72b9fec",
+          "speed": "Radio DECT",
+          "adminUp": true
+        }
+      ],
+      "config": {
+        "hostname": "Téléphone1",
+        "host": {
+          "mode": "static",
+          "ip": "192.168.1.11",
+          "mask": "255.255.255.0",
+          "gateway": "",
+          "dns": ""
+        }
+      },
+      "startup": null
+    },
+    {
+      "id": "dev_uihzyp93kf2",
+      "modelId": "dect-phone",
+      "name": "Téléphone2",
+      "x": 760,
+      "y": 340,
+      "ports": [
+        {
+          "name": "DECT0",
+          "short": "DECT0",
+          "mac": "00e0f7f02e5d",
+          "speed": "Radio DECT",
+          "adminUp": true
+        }
+      ],
+      "config": {
+        "hostname": "Téléphone2",
+        "host": {
+          "mode": "static",
+          "ip": "192.168.1.12",
+          "mask": "255.255.255.0",
+          "gateway": "",
+          "dns": ""
+        }
+      },
+      "startup": null
+    }
+  ],
+  "links": [
+    {
+      "id": "lnk_sqvpysm3kf3",
+      "a": {
+        "device": "dev_73x4j253kf2",
+        "port": "WiFi0"
+      },
+      "b": {
+        "device": "dev_g6fitwi3kf2",
+        "port": "Radio1"
+      }
+    },
+    {
+      "id": "lnk_eyf3pzh3kf3",
+      "a": {
+        "device": "dev_g6fitwi3kf2",
+        "port": "Ethernet0"
+      },
+      "b": {
+        "device": "dev_dyn4tkb3kf2",
+        "port": "port1.0.1"
+      }
+    },
+    {
+      "id": "lnk_ud06kcv3kf3",
+      "a": {
+        "device": "dev_1fwasce3kf2",
+        "port": "FastEthernet0"
+      },
+      "b": {
+        "device": "dev_dyn4tkb3kf2",
+        "port": "port1.0.2"
+      }
+    },
+    {
+      "id": "lnk_d1g3doc3kf3",
+      "a": {
+        "device": "dev_ijta6tc3kf2",
+        "port": "Ethernet0"
+      },
+      "b": {
+        "device": "dev_dyn4tkb3kf2",
+        "port": "port1.0.3"
+      }
+    },
+    {
+      "id": "lnk_q6641943kf3",
+      "a": {
+        "device": "dev_7y4fvst3kf2",
+        "port": "DECT0"
+      },
+      "b": {
+        "device": "dev_ijta6tc3kf2",
+        "port": "DECT1"
+      }
+    },
+    {
+      "id": "lnk_h5lvwdu3kf3",
+      "a": {
+        "device": "dev_uihzyp93kf2",
+        "port": "DECT0"
+      },
+      "b": {
+        "device": "dev_ijta6tc3kf2",
+        "port": "DECT2"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "id": "note-example",
+      "x": 260,
+      "y": 390,
+      "text": "Portable1 : ping 192.168.1.2\nTéléphone1 : onglet Appel → Téléphone2"
+    }
+  ],
+  "createdAt": 1794137424158,
+  "updatedAt": 1794137424158,
+  "exerciseId": null
+}
